@@ -1,69 +1,125 @@
+# 📊 Job Market Analyzer
 
-A data engineering project that collects, processes, and analyzes job market data to identify trends in skills, salaries, and demand.
+This project demonstrates practical data engineering skills by building a production-like data pipeline using real-world techniques.
 
 ---
 
 ## 🚀 Overview
 
-This project demonstrates how a data engineering pipeline can be designed and implemented using real-world approaches:
+This project simulates a real-world data engineering workflow:
 
-- 🔍 Collect job postings from APIs  
-- 🧹 Clean and normalize raw data  
-- 💾 Store structured data in a database  
-- 📈 Analyze job market trends  
-- 📊 Visualize insights  
+* 🔍 Collect job postings from APIs
+* 🧹 Clean and normalize raw data
+* 💾 Store structured data in a database
+* 📈 Analyze job market trends
+* 📊 Visualize insights
 
 ---
 
 ## 🧱 Architecture
 
-
+```
 Data Source → Ingestion → Processing → Storage → Analysis → Visualization
-
+```
 
 ---
 
 ## ⚙️ Tech Stack
 
-- Python (Pandas, Requests)
-- SQL (SQLite / PostgreSQL)
-- Docker
-- Pytest
+* Python (Pandas, Requests)
+* SQL (SQLite / PostgreSQL)
+* Docker
+* Pytest
 
 ---
 
 ## 📂 Project Structure
 
-
+```
 job-market-analyzer/
 │
 ├── src/job_market_analyzer/
-│ ├── ingestion/
-│ ├── processing/
-│ ├── storage/
-│ ├── analysis/
-│ └── visualization/
+│   ├── ingestion/       # Data collection
+│   ├── processing/      # Cleaning & transformation
+│   ├── storage/         # Database logic
+│   ├── analysis/        # Data analysis
+│   └── visualization/   # Charts and plots
 │
-├── scripts/
-├── tests/
-├── data/
+├── scripts/             # Pipeline entrypoints
+├── tests/               # Unit tests
+├── data/                # Raw & processed data
 └── README.md
-
+```
 
 ---
 
 ## ▶️ How to Run
 
+### 1. Clone repository
+
+```bash
+git clone https://github.com/eugenhei/job-market-analyzer.git
+cd job-market-analyzer
+```
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run pipeline
+
 ```bash
 python scripts/run_pipeline.py
-💡 Purpose
+```
+
+---
+
+## 📊 Example Insights
+
+* Most in-demand skills: Python, SQL, AWS
+* Salary distribution by role
+* Job trends over time
+
+---
+
+## 🧪 Testing
+
+```bash
+pytest
+```
+
+---
+
+## 🐳 Docker
+
+```bash
+docker build -t job-analyzer .
+docker run job-analyzer
+```
+
+---
+
+## 💡 Purpose
 
 This project was built as part of my portfolio to showcase real-world data engineering skills.
 
 It demonstrates:
 
-Data pipeline design (ETL)
-Data cleaning and transformation
-Database integration
-Modular architecture
-Production-ready practices
+* Data pipeline design (ETL workflows)
+* Data cleaning and transformation
+* Database integration (SQL)
+* Modular and scalable project structure
+* Production-ready practices (testing, reproducibility)
+
+---
+
+## 👤 Author
+
+* Data Engineer / Python Developer
+* Based in Helsinki
+
+
+
+
