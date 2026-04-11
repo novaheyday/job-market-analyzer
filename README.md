@@ -1,22 +1,21 @@
-#  Job Market Analyzer
 
 A data engineering project that collects, processes, and analyzes job market data to identify trends in skills, salaries, and demand.
 
 ---
 
-##  Overview
+## 🚀 Overview
 
-This project demonstrates practical data engineering skills by building a production-like data pipeline using real-world techniques:
+This project demonstrates how a data engineering pipeline can be designed and implemented using real-world approaches:
 
--  Collect job postings from APIs  
--  Clean and normalize raw data  
--  Store structured data in a database  
--  Analyze job market trends  
--  Visualize insights  
+- 🔍 Collect job postings from APIs  
+- 🧹 Clean and normalize raw data  
+- 💾 Store structured data in a database  
+- 📈 Analyze job market trends  
+- 📊 Visualize insights  
 
 ---
 
-##  Architecture
+## 🧱 Architecture
 
 
 Data Source → Ingestion → Processing → Storage → Analysis → Visualization
@@ -24,7 +23,7 @@ Data Source → Ingestion → Processing → Storage → Analysis → Visualizat
 
 ---
 
-##  Tech Stack
+## ⚙️ Tech Stack
 
 - Python (Pandas, Requests)
 - SQL (SQLite / PostgreSQL)
@@ -33,7 +32,7 @@ Data Source → Ingestion → Processing → Storage → Analysis → Visualizat
 
 ---
 
-##  Project Structure
+## 📂 Project Structure
 
 
 job-market-analyzer/
@@ -53,11 +52,11 @@ job-market-analyzer/
 
 ---
 
-##  How to Run
+## ▶️ How to Run
 
 ```bash
 python scripts/run_pipeline.py
- Purpose
+💡 Purpose
 
 This project was built as part of my portfolio to showcase real-world data engineering skills.
 
@@ -68,6 +67,3 @@ Data cleaning and transformation
 Database integration
 Modular architecture
 Production-ready practices
-
----
-
