@@ -36,12 +36,12 @@ job-market-analyzer/
 └── README.md
 ```
 How to Run
-- 1. Clone repository
+ 1. Clone repository
 git clone https://github.com/eugenhei/job-market-analyzer.git
 cd job-market-analyzer
-- 2. Install dependencies
+ 2. Install dependencies
 pip install -r requirements.txt
-- 3. Run pipeline
+ 3. Run pipeline
 python scripts/run_pipeline.py
  Example Insights
 Most in-demand skills: Python, SQL, AWS
