@@ -20,6 +20,7 @@ SQL (SQLite / PostgreSQL)
 Docker
 Pytest
 Project Structure
+```
 job-market-analyzer/
 │
 ├── src/job_market_analyzer/
@@ -33,6 +34,7 @@ job-market-analyzer/
 ├── tests/               # Unit tests
 ├── data/                # Raw & processed data
 └── README.md
+```
 How to Run
 1. Clone repository
 git clone https://github.com/your-username/job-market-analyzer.git
