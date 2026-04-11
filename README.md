@@ -3,23 +3,23 @@
 Scalable data pipeline for collecting and analyzing job market data, extracting key skills, and providing insights into technology trends in Finland.
 A data engineering project that collects, processes, and analyzes job market data to identify trends in skills, salaries, and demand.
 
- Overview
+ - Overview
 
-This project simulates a real-world data pipeline:
+- This project simulates a real-world data pipeline:
 
- Collect job postings from APIs
- Clean and normalize raw data
- Store structured data in a database
- Analyze job market trends
- Visualize insights
-Architecture
-Data Source → Ingestion → Processing → Storage → Analysis → Visualization
-Tech Stack
-Python (Pandas, Requests)
-SQL (SQLite / PostgreSQL)
-Docker
-Pytest
-Project Structure
+ - Collect job postings from APIs
+ - Clean and normalize raw data
+ - Store structured data in a database
+ - Analyze job market trends
+ - Visualize insights
+- Architecture
+- Data Source → Ingestion → Processing → Storage → Analysis → Visualization
+- Tech Stack
+- Python (Pandas, Requests)
+- SQL (SQLite / PostgreSQL)
+- Docker
+- Pytest
+- Project Structure
 ```
 job-market-analyzer/
 │
@@ -36,12 +36,12 @@ job-market-analyzer/
 └── README.md
 ```
 How to Run
-1. Clone repository
-git clone https://github.com/your-username/job-market-analyzer.git
+- 1. Clone repository
+git clone https://github.com/eugenhei/job-market-analyzer.git
 cd job-market-analyzer
-2. Install dependencies
+- 2. Install dependencies
 pip install -r requirements.txt
-3. Run pipeline
+- 3. Run pipeline
 python scripts/run_pipeline.py
  Example Insights
 Most in-demand skills: Python, SQL, AWS
