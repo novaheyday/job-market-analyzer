@@ -1,0 +1,10 @@
+
+country,job_title,company,experience,salary,skills
+Finland,Python Developer,Nordic Tech,Mid,4800,"Python, SQL, Git"
+Germany,Data Analyst,DataWorks,Junior,3900,"Python, Excel, SQL"
+France,Software Engineer,Tech France,Senior,6200,"Python, Docker, AWS"
+Netherlands,Data Scientist,Analytics NL,Mid,5500,"Python, Machine Learning, SQL"
+Sweden,Backend Developer,Stockholm Tech,Mid,5100,"Python, Django, PostgreSQL"
+Spain,Junior Developer,Code Spain,Junior,2800,"Python, Git, HTML"
+Ireland,Cloud Engineer,Dublin Systems,Senior,6500,"AWS, Docker, Python"
+Poland,Data Analyst,Warsaw Analytics,Junior,3200,"Python, Power BI, SQL"
